@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Members</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #f8f9fa; /* Set header background color */
+    }
+    .navbar-brand {
+      font-size: 24px; /* Larger font size for the Lab Name */
+      font-weight: bold; /* Optional: Set font weight to bold */
+    }
+    .navbar-subtitle {
+      font-size: 14px; /* Smaller font size for the subtitle */
+      color: #6c757d; /* Optional: Customize subtitle color */
+    }
+    .navbar-subtitle p {
+      margin: 0; /* Optional: Remove default margin for the subtitle */
+    }
+    .research-topic {
+      margin: 40px 0;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+    }
+    .research-content {
+      padding: 10px;
+    }
+    .research-content h2 {
+      font-size: 24px;
+      color: #17a2b8;
+      margin-bottom: 20px;
+    }
+    .research-content h3 {
+      font-size: 20px;
+      color: #6c757d;
+      cursor: pointer;
+      position: relative;
+    }
+    .research-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    .research-content .details {
+      display: none;
+    }
+    .research-content h3:hover {
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Nematode EcoEvo Lab</a>
+    <div class="navbar-subtitle ml-3">
+      <p>Nematode-Microbe Interactions</p>
+      <p>Genetics and Genomic Evolution</p>
+      <p>@Northwest A&F University</p>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Research.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="member.html">People</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="publication.html">Publications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+
+  <!-- Research Section -->
+  <div class="container">
+    <h1 class="mt-5 mb-4">Research</h1>
+  
+    <!-- Research Topic 1 -->
+    <div class="research-topic">
+      <div class="research-content">
+        <h2 id="nematode-microbiome-interaction">Mechanisms of Nematode-Bacteria Interactions</h2>
+        <p>Understanding the interactions between nematodes and bacteria is fundamental to elucidating the ecological dynamics and physiological processes in nematode biology. In the laboratory, nematodes are typically cultured under artificial conditions, such as on monocultures of <em>Escherichia coli</em>, which significantly differ from the complex microbial environments they encounter in nature. To bridge this gap, our research focuses on understanding the interactions between nematodes and bacterial communities derived from decomposing insect carcasses. These environments provide a more realistic and diverse setting that mimics the natural ecological niches of nematodes. We employ a multidisciplinary approach, integrating genomics, transcriptomics, and genetic manipulation, to dissect these interactions at both molecular and community levels.</p>
+        
+        <h3>• Dauer Formation in <em>P. pacificus</em> <span style="font-size: 14px; color: #17a2b8;">(click to expand)</span></h3>
+        <div class="details">
+        <p>Dauer formation is a critical developmental decision for nematodes, allowing them to enter a stress-resistant, non-feeding larval stage in response to adverse conditions. <em>Pristionchus pacificus</em>, a necromenic nematode, exhibits dauer formation pathways that are distinct from those of <em>Caenorhabditis elegans</em>, especially regarding the environmental cues that trigger this process. In our studies, we have observed that <em>P. pacificus</em> undergoes extensive dauer formation during the late stages of insect carcass decay, indicating that bacterial signals play a significant role in this process. We hypothesize that specific metabolites produced by bacteria during decomposition act as cues for dauer induction. Using comparative transcriptomics and bacterial metabolite profiling, we aim to identify these key signaling molecules and unravel the molecular pathways that mediate dauer formation in <em>P. pacificus</em>.</p>
+        </div>
+
+        <h3>• Immune Mechanisms in <em>P. pacificus</em> <span style="font-size: 14px; color: #17a2b8;">(click to expand)</span></h3>
+        <div class="details">
+        <p>Unlike many other bacterivorous nematodes, <em>Pristionchus</em> species lack the grinder structure in their pharynx, which in <em>C. elegans</em> functions to mechanically lyse bacteria before ingestion. This anatomical difference allows live bacteria to accumulate in the intestines of <em>Pristionchus</em>, creating a unique challenge for maintaining intestinal homeostasis and managing potential pathogenic threats. Our research seeks to understand the immune mechanisms that <em>Pristionchus</em> utilizes to defend against pathogenic bacteria, focusing on both constitutive and inducible responses. We are employing RNA sequencing to characterize the immune-related gene expression profiles in response to pathogenic and non-pathogenic bacterial exposure. Additionally, we are using CRISPR/Cas9 gene editing to investigate the functional roles of specific immune effectors and regulatory pathways in modulating host-pathogen interactions.</p>
+        </div>
+    </div>
+</div>
+
+  
+    <!-- Research Topic 2 -->
+    <div class="research-topic">
+        <div class="research-content">
+        <h2 id="nematode-genome-evolution">Evolutionary Adaptations of Plant-Parasitic Nematodes</h2>
+        <p>Plant-parasitic nematodes represent a diverse group that has evolved numerous adaptations to exploit plant hosts, and they are of significant ecological and agricultural importance due to their ability to parasitize a wide range of crops, often leading to substantial economic losses. The evolutionary transition from a free-living to a plant-parasitic lifestyle has necessitated profound changes in morphology, physiology, and behavior, allowing these nematodes to effectively locate, invade, and feed on their plant hosts. Our research focuses on understanding the genetic and ecological adaptations that underpin these specialized interactions.</p>
+        <h3>• Metabolic Adaptations <span style="font-size: 14px; color: #17a2b8;">(click to expand)</span></h3>
+        <div class="details">
+        <p> Plant-parasitic nematodes often face nutrient-limited conditions within plant tissues and have evolved unique metabolic pathways to cope with these constraints. Through comparative analyses of metabolic gene networks between plant-parasitic and free-living nematodes, we aim to identify key metabolic shifts that support parasitism, which could reveal potential targets for controlling these pests in agricultural settings. We use P. pacificus to study how these novel functional changes are integrated into gene regulatory pathways, as <em>P. pacificus</em> has a well-established molecular toolkit that allows us to explore these processes in detail. </p>
+        </div>        
+
+        <h3>• Geographic Distribution and Agricultural Impact <span style="font-size: 14px; color: #17a2b8;">(click to expand)</span></h3>
+        <div class="details">
+        <p>We are investigating the geographic distribution of plant-parasitic nematodes, focusing on how agricultural activities, such as the use of nematicides, influence resistance development. Additionally, we study the impact of symbiotic bacteria on the pathogenicity of plant-parasitic nematodes. By exploring these factors, we aim to understand the evolutionary pressures and adaptations that enable these nematodes to thrive in various agroecosystems.</p>
+        </div>
+
+        <h3>• Effectors <span style="font-size: 14px; color: #17a2b8;">(click to expand)</span></h3>
+        <div class="details">
+        <p>Once inside the plant, nematodes secrete a wide range of effector proteins that manipulate host cellular processes, allowing them to suppress plant immune responses and establish a feeding site. These feeding sites, such as giant cells or syncytia, serve as nutrient sources for the nematodes. We are characterizing the effector repertoires of key plant-parasitic nematode species using transcriptomics. Our goal is to elucidate how these effectors interact with host plant pathways, identify their specific functions, and understand how they have evolved to enable successful parasitism. </p>
+        </div>
+        </div>
+    </div>
+  
+  </div>
+
+  <!-- Link to Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const headers = document.querySelectorAll(".research-content h3");
+      headers.forEach(header => {
+        header.addEventListener("click", function() {
+          const details = header.nextElementSibling;
+          if (details && details.classList.contains('details')) {
+            details.style.display = details.style.display === 'block' ? 'none' : 'block';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

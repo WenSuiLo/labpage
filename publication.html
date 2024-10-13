@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #f8f9fa; /* Set header background color */
+    }
+    .navbar-brand {
+      font-size: 24px; /* Larger font size for the Lab Name */
+      font-weight: bold; /* Optional: Set font weight to bold */
+    }
+    .navbar-subtitle {
+      font-size: 14px; /* Smaller font size for the subtitle */
+      color: #6c757d; /* Optional: Customize subtitle color */
+    }
+    .navbar-subtitle p {
+      margin: 0; /* Optional: Remove default margin for the subtitle */
+    }
+/* General styles that apply to both mobile and desktop */
+    .card {
+      border: none; /* Optional: Removes the border */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+      margin-top: 10px;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Desktop-specific styles */
+    @media (min-width: 992px) {
+      .card-body {
+        padding: 15px;
+      }
+
+      .card-title {
+        font-size: 16px; /* Adjust the font size as needed */
+        color: #000000; /* Adjust the color as needed */
+        margin-bottom: 10px;
+      }
+
+      .card-summary {
+        display: block; /* Always display the summary on desktop */
+        font-size: 14px;
+        color: #383838;
+        margin-bottom: 10px;
+      }
+
+      .card-text {
+        font-size: 12px;
+        color: #555; /* Adjust the color as needed */
+      }
+    }
+        @media (max-width: 767px) {
+      .card-img-top {
+        width: 100%;
+        order: 1; 
+      }
+
+      .card-body {
+        width: 100%;
+        order: 2; 
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .d-none.d-lg-block {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Nematode EcoEvo Lab</a>
+    <div class="navbar-subtitle ml-3">
+      <p>Nematode-Microbe Interactions</p>
+      <p>Genetics and Genomic Evolution</p>
+      <p>@Northwest A&F University</p>
+    </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Research.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="member.html">People</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="publication.html">Publications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>   
+  <div class="container">
+    <br><br><br>
+  <h4>Select publications</h4>
+    <!-- Highlighted Articles Section -->
+    <div class="row">
+      <!-- NC_2024_Lo&Han -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          
+            <img class="card-img-top" src="image/pub/NC_2024.png" alt="Summary Figure 1">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://www.nature.com/articles/s41467-024-49513-5" target="_blank">Microbiota succession influences nematode physiology in a beetle microcosm ecosystem
+                </a>
+              </h5>
+              <p class="card-text"><strong>Wen-Sui Lo</strong>, Ralf J Sommer#, <strong>Ziduan Han#</strong>. <strong>Nature Communication </strong> 2024</p>
+              <p class="d-none d-lg-block">Microbial succession during insect decay alters <em>P. pacificus</em> survival strategies, with species-specific genes playing a key role in ecological adaptation.</p>
+            </div>
+        </div>
+      </div>
+      <!-- MBE_2022_Lo -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/pub/MBE_Lo_2022.png" alt="Cover image for the publication on TGF-β Pathways">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="https://academic.oup.com/mbe/article/39/12/msac252/6832141" target="_blank">
+                Evolution and Diversity of TGF-β Pathways are Linked with Novel Developmental and Behavioral Traits
+              </a>
+            </h5>
+            <p class="card-text">
+              <strong>Wen-Sui Lo</strong>, Marianne Roca, Mohannad Dardiry, Marisa Mackie, Gabi Eberhardt, Hanh Witte, Ray Hong, Ralf J Sommer, James W Lightfoot. <strong>Molecular Biology and Evolution</strong> 2022
+            </p>
+            <p class="d-none d-lg-block">The duplication of the duplicated TGF-β pathways genes are linked with novel developmental and behavioral traits.</p>   
+          </div>            
+        </div>
+      </div>
+      <!-- CB_Lo_2022 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="image/pub/CU_Lo_2022.png" alt="Summary Figure 1">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="https://www.sciencedirect.com/science/article/pii/S0960982222004900" target="_blank">
+              Synergistic interaction of gut microbiota enhances the growth of nematode through neuroendocrine signaling
+              </a>
+            </h5>
+            <p class="card-text">
+                <strong>Wen-Sui Lo, Ziduan Han</strong>, Hanh Witte, Waltraud Röseler, Ralf J. Sommer. <strong>Current Biology</strong> 2022</p>           
+            <p class="d-none d-lg-block">
+                The bacterium <i>L. xylanilyticus</i> promotes fitness of its nematode host <i>P. pacificus</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- MBE_han_2022 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card h-100">
+            
+              <img class="card-img-top" src="image/pub/MBE_Han_2022.png" alt="Summary Figure 1">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="https://academic.oup.com/mbe/article/39/2/msab370/6493351" target="_blank">
+                  Horizontally Acquired Cellulases Assist the Expansion of Dietary Range in Pristionchus Nematodes
+                </a>
+              </h5>
+                <p class="card-text"><strong>Ziduan Han</strong>, Bogdan Sieriebriennikov, Vladislav Susoy, <strong>Wen-Sui Lo</strong>, Catia Igreja, Chuanfu Dong, Aileen Berasategui, Hanh Witte, Ralf J Sommer.  <strong>Molecular Biology and Evolution</strong> 2022</p>
+                <p class="d-none d-lg-block">The integration of horizontally acquired genes into the complex life history strategy of <i>P. pacificus</i></p>
+              </div>
+          </div>
+        </div>
+      <!-- Genetics_2020 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100">       
+            <img class="card-img-top" src="image/pub/genetic_2020.jpeg" alt="Summary Figure 1">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://academic.oup.com/genetics/article/216/4/947/6065858" target="_blank">
+                Improving Transgenesis Efficiency and CRISPR-Associated Tools Through Codon Optimization and Native Intron Addition in <i></i>Pristionchus</i> Nematodes
+              </a>
+              </h5>
+              <p class="card-text"><strong>Ziduan Han*, Wen-Sui Lo*</strong>, James W Lightfoot, Hanh Witte, Shuai Sun, Ralf J Sommer. <strong>Genetics</strong> 2020</p>
+              <p class="d-none d-lg-block">Codon optimization and native intron addition significantly improved transgenesis efficiency in nematode.</p>
+            </div>
+        </div>
+      </div>
+      <!-- Add more highlighted articles here -->
+    </div>
+</div>
+
+
+  </div>
+
+  <!-- Link to Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

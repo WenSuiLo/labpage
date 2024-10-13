@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Members</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #f8f9fa; /* Set header background color */
+    }
+    .navbar-brand {
+      font-size: 24px; /* Larger font size for the Lab Name */
+      font-weight: bold; /* Optional: Set font weight to bold */
+    }
+    .navbar-subtitle {
+      font-size: 14px; /* Smaller font size for the subtitle */
+      color: #6c757d; /* Optional: Customize subtitle color */
+    }
+    .navbar-subtitle p {
+      margin: 0; /* Optional: Remove default margin for the subtitle */
+    }
+    .research-topic {
+      margin: 60px 0;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+    }
+    .research-content {
+      padding: 10px;
+    }
+    .research-content h2 {
+      font-size: 28px;
+      color: #17a2b8;
+      margin-bottom: 20px;
+    }
+    .research-content h3 {
+      font-size: 22px;
+      color: #6c757d;
+      cursor: pointer;
+      position: relative;
+    }
+    .research-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    .research-content .details {
+      display: none;
+    }
+    .research-content h3:hover {
+      color: #0056b3;
+    }
+    .member-section {
+      margin-top: 60px;
+    }
+    .pi-card, .member-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+    }
+    .pi-info {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .pi-photo {
+      flex: 1;
+      max-width: 150px;
+      margin-right: 20px;
+    }
+    .pi-details {
+      flex: 3;
+      line-height: 1;
+    }
+    .pi-details h4 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .member-card h5 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+      .pi-info {
+        flex-direction: column;
+        align-items: center;
+      }
+      .pi-photo {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Nematode EcoEvo Lab</a>
+    <div class="navbar-subtitle ml-3">
+      <p>Nematode-Microbe Interactions</p>
+      <p>Genetics and Genomic Evolution</p>
+      <p>@Northwest A&F University</p>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Research.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="member.html">People</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="publication.html">Publications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+
+  <!-- People Section -->
+  <div class="container member-section">
+    <h1 class="mt-5 mb-4">People</h1>
+    
+    <!-- PI Section -->
+    <div class="pi-card">
+      <div class="pi-info">
+        <div class="pi-photo">
+          <img src="image/wlo.png" alt="PI Photo" style="width: 100%; height: auto; border-radius: 8px;">
+        </div>
+        <div class="pi-details">
+          <h4>Dr. Wen-Sui Lo</h4>
+          <br>
+          <p>Professor of Institute of Future Agriculture </p>
+          <br>      
+          <p>Postdoc: Max Planck Institute for Biology, Department for Integrative Evolutionary Biology, Tübingen, Germany.</p>
+          <p>PhD: Molecular and Biological Agricultural Sciences, Chung Hsing University, China.</p>
+          <br>
+          <br>
+          <p>Grants from the National Natural Science Foundation 国自然面上项目 (2023-2026)</p>
+          <br>
+          <p><a href="https://scholar.google.com.au/citations?user=bR9zqx8AAAAJ&hl=en" style="font-weight: bold; color: #0056b3;">Google Scholar Profile</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pi-card">
+        <div class="pi-info">
+          <div class="pi-photo">
+            <img src="image/hzd.jpeg" alt="PI Photo" style="width: 100%; height: auto; border-radius: 8px;">
+          </div>
+          <div class="pi-details">
+            <h4>Dr. Ziduan Han</h4>
+            <br>
+            <p>Professor of College of Plant Protection</p>
+            <br>
+            <p>Postdoc: Max Planck Institute for Biology, Department for Integrative Evolutionary Biology, Tübingen, Germany.</p>
+            <p>PhD: Crop Sciences, University of Illinois Urbana-Champaign, IL, USA</p>
+            <br>
+            <br>
+            <p>Alexander von Humboldt Fellow (2020-2022)</p>
+            <p>Grants from the National Natural Science Foundation 国自然青基项目 (2022-2024)</p>
+            <p>陕西省青年人才项目 (2024)</p>
+            <br>
+            <p><a href="https://scholar.google.com.au/citations?user=j0bUF1IAAAAJ&hl=en&oi=aon" style="font-weight: bold; color: #0056b3;">Google Scholar Profile</a></p>
+
+          </div>
+        </div>
+      </div>
+
+    <!-- Postdoc Section -->
+    <div class="member-grid">
+      <div class="member-card" style="background-color: #e9ecef;">
+        <h5>Dr. Yuqing Huang</h5>
+        <p>Postdoc (2024-06 ~ )</p>
+        <p>Research Topic: Evolutionary adaptations of nematodes in agricultural ecosystems.</p>
+        <p style="font-size: 14px">PhD: Wageningen University and Research, Netherlands </p>
+      </div>
+      <div class="member-card" style="background-color: #e9ecef;">
+        <h5>Dr. Yang Liu</h5>
+        <p>Postdoc (2024-08 ~ )</p>
+        <p>Research Topic: Nematode-microbe interactions.</p>
+
+        <p style="font-size: 14px">PhD: Microbiology and Immunology, University of British Columbia, Vancouver, Canada </p>
+      </div>
+      <div class="member-card" style="background-color: #e9ecef;">
+        <h5>Dr. Zhen Wang</h5>
+        <p>Postdoc (2024-09 ~ ) </p>
+        <p>Research Topic: Dauer formation.</p>
+        <p style="font-size: 14px">PhD: Agricultural, Institute for Phytopathology, Faculty of Agricultural and Nutritional Sciences, Kiel University, Germany </p>
+      </div>
+    </div>
+
+    <!-- Other Members Section -->
+    <div class="member-grid">
+      <div class="member-card">
+        <h5>Lab manager</h5>
+        <p>李丙雪</p>
+      </div>
+      <div class="member-card">
+        <h5>PhD Students</h5>
+        <p>马琦 - College of Plant Protection - Research on integration of novel genes.</p>
+        <p>杨鹄溶 - College of Plant Protection - Studying adaptation in plant nematodes.</p>
+      </div>
+      <div class="member-card">
+        <h5>Master's Students</h5>
+        <p>李文杰 - College of Plant Protection - Investigating symbiotic bacteria of the  plant-parasitic nematodes.</p>
+        <p>杨宁  - College of Plant Protection - Investigating regulation of anhydrobiosis in nematodes.</p>
+        <p>刘啸颖 - Institute of Future Agriculture - Investigating dauer formation of P. pacificus.</p>
+        <p>郭馥萱 - Institute of Future Agriculture - Investigating dauer formation of P. pacificus.</p>
+      </div>
+      <div class="member-card">
+        <h5>Undergraduate Students</h5>
+        <p>王志东 - College of Plant Protection - Working on dietary Shift in nematode.</p>
+        <p>庞佳喜 - College of Life Sciences - Working on host-pathogen interactions.</p>
+        <p>王俞舒 - College of Animal Science and Technology - Working on host-pathogen interactions.</p>
+
+      </div>
+    </div>
+    <!-- Lab Group Photo Section -->
+    <div class="lab-photo-section mt-5 mb-5">
+      <h2 class="text-center mb-4">Lab 2024 Summer</h2>
+      <div class="text-center">
+        <img src="image/Lab2023.jpg" alt="Lab Group Photo 2023" style="max-width: 70%; height: auto; border-radius: 8px;">
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Link to Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
